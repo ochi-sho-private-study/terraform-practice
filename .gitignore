@@ -1,0 +1,2 @@
+/minimum_ec2_server/*
+!/minimum_ec2_server/main.tf
