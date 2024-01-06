@@ -11,13 +11,13 @@ resource "aws_subnet" "public_1a" {
   }
 }
 
-resource "aws_subnet" "public_1c" {
+resource "aws_subnet" "private_1a" {
   vpc_id = aws_vpc.main.id
 
-  availability_zone = "ap-northeast-1c"
+  availability_zone = "ap-northeast-1a"
   cidr_block        = "10.0.2.0/24"
 
   tags = {
-    Name = "basic_network-public-1c"
+    Name = "basic_network-private-1a"
   }
 }
