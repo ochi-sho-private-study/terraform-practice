@@ -7,7 +7,7 @@ resource "aws_subnet" "public_1a" {
   cidr_block        = "10.0.1.0/24"
 
   tags = {
-    Name = "handson-public-1a"
+    Name = "basic_network-public-1a"
   }
 }
 
@@ -18,6 +18,6 @@ resource "aws_subnet" "public_1c" {
   cidr_block        = "10.0.2.0/24"
 
   tags = {
-    Name = "handson-public-1c"
+    Name = "basic_network-public-1c"
   }
 }
