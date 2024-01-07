@@ -4,7 +4,7 @@ resource "aws_key_pair" "app_server" {
 }
 
 resource "aws_instance" "app_server" {
-  ami           = "ami-0dfa284c9d7b2adad"
+  ami           = "ami-07c589821f2b353aa"
   instance_type = "t2.micro"
   subnet_id     = aws_subnet.public_1a.id
 
