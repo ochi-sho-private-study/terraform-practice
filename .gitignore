@@ -1,2 +1,10 @@
 /minimum_ec2_server/*
 !/minimum_ec2_server/main.tf
+
+/basic_network/*
+!/basic_network/vpc.tf
+!/basic_network/subnet.tf
+!/basic_network/igw.tf
+!/basic_network/natgw.tf
+!/basic_network/route_table.tf
+!/basic_network/security.tf
