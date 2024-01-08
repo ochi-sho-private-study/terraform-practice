@@ -22,3 +22,14 @@ resource "aws_subnet" "private_1a" {
     Name = "basic_network-private-1a"
   }
 }
+
+resource "aws_subnet" "private_1c" {
+  vpc_id = aws_vpc.main.id
+
+  availability_zone = "ap-northeast-1c"
+  cidr_block        = "10.0.20.0/24"
+
+  tags = {
+    Name = "basic_network-private-1b"
+  }
+}
