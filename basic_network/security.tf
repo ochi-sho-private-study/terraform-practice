@@ -26,7 +26,7 @@ resource "aws_security_group" "app_sg" {
     from_port   = 22
     to_port     = 22
     protocol    = "tcp"
-    cidr_blocks = ["192.168.3.2/32"] # 開発者のIP範囲に置き換えてください
+    cidr_blocks = ["60.134.210.222/32"] # 開発者のIP範囲に置き換えてください
   }
 
   # アウトバウンドルール（全てのトラフィックを許可）
